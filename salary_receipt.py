@@ -2,7 +2,7 @@ name = input("Enter your name:")
 hours_worked = int(input("Enter hours worked:"))
 hourly_rate = int(input("Enter hourly rate:"))
 Gross_pay = hours_worked * hourly_rate
-Tax = 22 /100
+Tax = 22 / 100
 Tax_deducted= Gross_pay * Tax
 Net_pay = Gross_pay - Tax_deducted
 
